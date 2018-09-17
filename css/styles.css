@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body {
+	margin: 0;
+	padding: 0;
+    background-color: black;
+    max-width: 1400px;
+}
+img, iframe{
+    max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+
+#logo ul li{
+    list-style: none;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    margin-left: 1%;
+	margin-right: 1%;
+}
+.search{
+    text-align: right;
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-family: 'Jim Nightshade', cursive;
+    line-height: 2rem;
+    
+}
+.logo #love{
+    font-size: 1.5rem;
+}
+.logo #beat{
+    color: white;
+}
+input[type=text]{
+    width: 60%; /* Full width */
+ padding: 5px; 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+/*    margin-top: 6px;  Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.read p{
+    text-align: right;
+    color:  black;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.read p:hover{
+    font-size: 1.5rem;
+}
+/*--navigation list-------------*/
+.quote p{
+    text-align: center;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 2rem;
+    
+}
+
+nav div a{
+    text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	line-height: 1rem;
+	text-transform: uppercase;
+    text-align: center;
+    padding-left:45%;
+    font-family: 'Abril Fatface', cursive;
+    
+
+}
+nav div{
+    background-color: #b20000;
+}
+nav div a:hover{
+    color: black;
+    
+}
+
+
+
+
+/*-----slider---------*/
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+    margin-top: 3rem;
+    margin-bottom: 0;
+/*    width: 700px;*/
+/*    height: 300px;*/
+/*    background-color: aqua;*/
+   
+    
+     
+}
+.mySlides {
+    display: none;
+/*    background-color: aquamarine;*/
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+
+  animation-name: fade;
+  animation-duration: 3.0s;
+}
+
+/*
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+*/
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*----Features*/
+
+.text{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    background-color: #b20000;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: black;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+}
+p{
+    font-family: 'Karla', sans-serif;
+}
+/*--------Feature images text-------------*/
+.meta{
+    text-align: center;
+    font-size: .85rem;
+}
+
+/*-------latestnews---------*/
+.latestnewsimages article div{
+    float: left;
+    width: 48%;
+}
+.latestnewsimages h3{
+    margin-left: 15px;
+    font-family: 'Pacifico', cursive;
+    
+}
+.latestnewsimages h6{
+    margin-left: 15px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    background-color: black;
+    margin-right: 6rem;
+    text-align: center;
+}
+.latestnews .text h1{
+    color: white;
+}
+.latestnews .text h1:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.latestnewsimages article{
+    margin-top: .5rem;
+}
+
+
+/*-------most popular-------*/
+.mostpopular{
+    clear: both;
+}
+.mostpopularimages article div{
+    float: left;
+    width: 48%;
+}
+.mostpopularimages h3{
+    margin-left: 15px;
+    font-family: 'Pacifico', cursive;
+}
+.mostpopularimages article{
+    margin-top: .5rem;
+}
+.mostpopular .text h1{
+    color: white;
+}
+.mostpopular .text h1:hover{
+    color: black;
+    cursor: pointer;
+}
+.mostpopularimages h6{
+    margin-left: 15px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    background-color: black;
+    margin-right: 6rem;
+    text-align: center;
+}
+
+/*----events-------*/
+.events{
+    clear: both;
+}
+.eventdata article div{
+    float: left;
+    
+}
+.events .text{
+    color: white;
+}
+.events .text h1:hover{
+    color: black;
+    cursor: pointer;
+}
+.eventdata article .date{
+    background-color: black;
+    width: 40%;
+}
+.eventdata article h4{
+    color: white;
+    text-align: center;
+/*   font-family: 'Pacifico', cursive;*/
+    
+}
+.eventdata article p{
+    font-family: 'Pacifico', cursive;
+    margin-left: 2rem;
+}
+.eventdata article .date2{
+    clear: both;
+    background-color: black;
+     width: 40%;
+}
+.eventdata article .date3{
+    clear: both;
+    background-color: black;
+     width: 40%;
+}
+.eventdata article .date4{
+    clear: both;
+    background-color: black;
+     width: 40%;
+}
+.eventdata article div{
+    margin-top: 1rem;
+}
+
+/*----band images-------------*/
+.bandimages img{
+    border-radius: 50%;
+}
+.bandimages article h2{
+    text-align: center;
+}
+.bands .text h1{
+    color: white;
+}
+.bands .text h1:hover{
+    color: black;
+    cursor: pointer;
+}
+/*----video-----------*/
+.vleft .text h1{
+     color: white;
+}
+.vleft .text h1:hover{
+    color: black;
+    cursor: pointer;
+}
+/*----audio------*/
+.aright .text h1{
+    color: white;
+}
+.aright .text h1:hover{
+    color: black;
+    cursor: pointer;
+}
+.audioclips article div{
+    float: left;
+    width: 48%;
+    margin-top: 0;
+    margin-bottom: 5px;
+    }
+.audioclips article .arrow{
+    background-color: black;
+    width: 30%;
+    
+    padding: 1rem;
+    
+    text-align: center;
+}
+.audioclips article span{
+    background-color: antiquewhite;
+/*    border: 2px solid antiquewhite;*/
+}
+.audioclips article h6{
+    margin-top: 10px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-left: 6rem;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    
+   
+}
+article{
+    clear: both;
+    padding: .5rem;
+}
+
+
+/*-----footer----------*/
+.footer h1{
+    text-align: center;
+    color: #b20000;
+}
+.footer p{
+    color: white;
+    cursor: pointer;
+}
+.footer span{
+    color: white;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+}
+.gallery-landscape{
+    background-color: white;
+    margin: 5rem;
+}
+
+@media screen and (max-width: 600px){
+    *{
+    box-sizing: border-box;
+}
+    .slideshow-container {
+/*        margin-left: 0rem;*/
+/*        margin-right: 10rem;*/
+/*        width: 270px;*/
+/*        height: 250px;*/
+/*     margin-left: 15rem;*/
+        position: relative;
+          }
+    .gallery-landscape{
+    background-color: white;
+    margin: 0rem;
+}
+    .mostpopularimages h6{
+        width: 100%;
+    }
+    .latestnewsimages h6{
+        width: 100%;
+    }
+    .audioclips article h6{
+/*        background-color: blue;*/
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .footer{
+        text-align: center;
+    }
+	
+}
+
+@media screen and (max-width: 1199px){
+    .footer{
+        text-align: center;
+    }
+    .myslides{
+        width: 700px;
+        height: 400px;
+    }
+	
+	.feature-images article{
+		text-align: center;
+	}
+	.bandimages article{
+		text-align: center;
+	}
+	
+}
+
+@media screen and (min-width: 1200px)  {
+    *{
+    box-sizing: border-box;
+}
+    nav div{
+        float: left;
+        width: 12.5%;
+    }
+    .slideshow-container {
+ 
+   margin-left: 18rem;
+        margin-right: 10rem;
+/*        width: 700px;*/
+/*        height: 400px;*/
+        margin-left: 15rem;
+        position: relative;
+          }
+    .mySlides{
+        height: 450px;
+        width: 700px;
+    }
+    .features{
+        margin-top: 0;
+    }
+    .feature-images article{
+        float: left;
+        width: 31.333%;
+        margin: 1%;
+        clear: none;
+    }
+    .latestnewsimages articles{
+        float: left;
+        width: 31.33%;
+        margin: 1%;
+        clear: none;
+    }
+    #leftside{
+        width: 48%;
+/*        background-color: aqua;*/
+        float: left;
+    }
+    #right{
+        width: 48%;
+        float: right;
+       
+        margin-left: 0;
+        padding-left: 0;
+        display: inline-block;
+        padding-top: 0;
+/*        background-color: aqua;*/
+        
+    }
+    .events{
+        margin-top: 0;
+    }
+    .eventdata article{
+        float: left;
+        width: 48%;
+        margin: 1%;
+        clear: none;
+    }
+     .bands{
+        margin-top: 0;
+    }
+    .bandimages article{
+        float: left;
+        width: 31.333%;
+        margin: 1%;
+        clear: none;
+    }
+     .vleft{
+        width: 48%;
+/*        background-color: aqua;*/
+        float: left;
+    }
+    .aright{
+        width: 48%;
+        float: right;
+       
+        margin-left: 0;
+        padding-left: 0;
+        display: inline-block;
+        padding-top: 0;
+/*        background-color: aqua;*/
+        
+    }
+    .footer{
+        margin-top: 0;
+    }
+    .footer div{
+        float: left;
+        width: 31.333%;
+        margin: 1%;
+        clear: none;
+        text-align: center;
+    }
+	
+    
+    
+
+}
+
+
+/*--------------table.html--------------*/
+.images{
+    width: 300px;
+    height: 200px;
+/*    border: 3px solid white;*/
+    box-sizing: border-box;
+   
+    
+}
+.images img{
+     border-radius: 60%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    
+    
+}
+
+th,td{
+    color: white;
+    margin: 4rem;
+}
+.link{
+    padding: 6rem;
+}
+th{
+    border: 2px solid white;
+}
+table{
+    margin: 0 auto;
+}
+@media screen and (max-width: 900px){
+   
+    .images img{
+     border-radius: 0;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+     width: 100%;
+    
+}
+	.link{
+		padding-left: 1rem;
+	}
+    table{
+        margin-left: 0;
+    }
+	.source{
+		padding-right: 9rem;
+		margin-right: 2rem;
+	}
+	th{
+		border: 0px;
+	}
+
+}
+@media screen and (max-width: 400px){
+    
+   
+    
+    .link{
+        margin-right: 5rem;
+        font-size: 10px;
+		margin-left: 10px;
+		padding-left: 10px;
+    
+}
+    th{
+/*   border: 1px solid white;*/
+/*        margin-right: 0rem;*/
+        margin-left: 10px;
+/*		padding: 3px;*/
+/*        width: 100px;*/
+		padding: 10px;
+		border: 0px solid white;
+        
+}
+/*
+    .table{
+        width: 100%;
+        
+    } 
+*/
+    td{
+        margin-right: 5px;;
+    }
+	.sources{
+		padding-left: 10px;
+	}
+   
+/*
+    .images{
+        width: 400px;
+        height: 200px;
+    }
+*/
+    .images img{
+         width: 400px;
+        height: 100px;
+        padding: 0px;
+    }
+   
+}
+
+
+/*------------contact.html-------------*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email]{
+     width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical 
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #b20000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+     font-family: 'Abril Fatface', cursive;
+    font-size: 1rem;
+    
+   
+}
+a{
+    text-decoration: none;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: black;
+}
+label{
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.note h2{
+    color: white;
+    text-align: center;
+	font-size: 1rem;
+/*     font-family: 'Abril Fatface', cursive;*/
+	font-family: 'Karla', sans-serif;
+	
+    
+}
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    width: 31.333%;
+    margin: 0 1%;
+}
+.logo{
+    text-align: left;
+}
+.contactus{
+    text-align: center;
+}
+.ph{
+    text-align: right;
+}
+
+a{
+    color: azure;
+     font-family: 'Abril Fatface', cursive;
+    
+}
+
+@media screen and (max-width: 400px){
+    nav ul li{
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    .contactus{
+        text-align: left;
+    }
+    .ph{
+        text-align: left;
+    }
+
+
+
+
+}
+
+
+
+/*---------404----------------*/
+
+/*https://www.flickr.com/photos/69895296@N06/6352273794/in/photolist-aFk4FY-5G9p99-7K1KMK-4rbxk-4DMkh2-4DMjXM-7K1Lig-4DRAjY-4hyoS-47G3F5-qNfnjt-8yXMQ9-4DRASN-3LARu-5wpKXv-J8ezsN-4uczV-LFYHZ-7K5SK1-fm2smc-Hjo8yJ-J8eAy5-4DRAnh-5wpKKH-iKDkyq-5WaL8-5wu5zS-9b8ETh-4DRAXw-4DRAnW-PZ7GDa-2bMgaD-4DRAPA-9KeWt8-NR67BA-7K1NTH-qL7xpm-8yXMMy-2bRMew-4DRAfq-dsyMPa-ebYZst-4mcX9f-4nNaJm-4NM2Fx-4DMjT4-4hqQxA-4GyYgj-csEYdu-4GuNCV*/
+#content #first{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+#content #second{
+    color: white;
+    text-align: center;
+}
+#content #third{
+    color: white;
+    text-align: center;
+}
+#content #imagef{
+        text-align: center;
+}
+#content #fourth{
+	color: white;
+    text-align: center;
+}
+#content a{
+	background-color: #b20000;
+	border: 1px solid white;
+	border-radius: 10%;
+	padding: 10px;
+}
+#content #links{
+	text-align: center;
+/*	padding: 2rem;*/
+/*	margin: 2rem;*/
+		margin-bottom: 50px;
+}
+#content #link{
+	padding: 50px;
+
+}
+
+@media screen and (max-width: 500px){
+    #content #first #second{
+        margin: 0 auto;
+    }
+    #content #first{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+/*----------story.html-------------*/
+
+.story-text p{
+	font-family: 'Indie Flower', cursive;
+}
+@media screen and (min-width: 500px){
+.story-images .story{
+	margin: 1%;
+	width: 48%;
+	float: left;
+	box-sizing: border-box;
+/*	border: 1px solid black;*/
+/*	display: inline;*/
+}
+	.story-images .story-textt{
+		clear: both;
+	}
+	.story-text h1{
+		text-align: center;
+		font-family: 'Abril Fatface', cursive;
+		
+	}
+}
+/*-----clearfix--------------*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
